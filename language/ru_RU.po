@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Power\n"
+"POT-Creation-Date: 2019-01-31 17:30+0200\n"
+"PO-Revision-Date: 2019-01-31 17:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: GNS-IT <info@gns-it.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Entity/Consignment.php:401 Entity/Institution.php:432
+msgid "Reorganized"
+msgstr "Реорганизовано"
+
+#: Entity/Consignment.php:402 Entity/Institution.php:433
+msgid "Suspended activity"
+msgstr "Деятельность прекращена"
+
+#: Entity/Consignment.php:403
+msgid "Not allowed"
+msgstr "Запрещено "
+
+#: Entity/Consignment.php:404 Entity/Document.php:476
+#: Entity/Institution.php:434 Entity/Person.php:649
+#: Form/Element/DocumentStateSelect.php:36 Form/Element/EducationSelect.php:28
+#: Form/Element/PersonRelationTypeSelect.php:31
+#: Form/Element/PersonStateSelect.php:32 Form/Element/PowerTypeSelect.php:41
+#: Form/Element/ReferenceTypeSelect.php:29 Form/Element/ScaleSelect.php:38
+#: Form/Element/WorkerSelect.php:28
+msgid "None"
+msgstr "Не выбрано"
+
+#: Entity/Document.php:477 Form/Element/DocumentStateSelect.php:37
+msgid "Accepted"
+msgstr "Принято"
+
+#: Entity/Document.php:478 Form/Element/DocumentStateSelect.php:38
+msgid "Consideration"
+msgstr "Внесено на рассмотрение"
+
+#: Entity/Document.php:479 Form/Element/DocumentStateSelect.php:39
+msgid "Into operation"
+msgstr "Введено в действие"
+
+#: Entity/Document.php:480 Form/Element/DocumentStateSelect.php:40
+msgid "Expired"
+msgstr "Утратил силу"
+
+#: Entity/Person.php:643 Form/Element/PersonStateSelect.php:26
+msgid "Criminal proceedings"
+msgstr "Уголовное производство"
+
+#: Entity/Person.php:644 Form/Element/PersonStateSelect.php:27
+msgid "Is running"
+msgstr "За границами государства"
+
+#: Entity/Person.php:645 Form/Element/PersonStateSelect.php:28
+msgid "Condemned"
+msgstr "Осуждено"
+
+#: Entity/Person.php:646 Form/Element/PersonStateSelect.php:29
+msgid "Predesignated"
+msgstr "Назначено"
+
+#: Entity/Person.php:647 Form/Element/PersonStateSelect.php:30
+msgid "Municipality"
+msgstr "Депутат ОМС"
+
+#: Entity/Person.php:648 Form/Element/PersonStateSelect.php:31
+msgid "Verkhovna Rada"
+msgstr "Депутат ВРУ"
+
+#: Form/Element/CitizenshipSelect.php:28
+msgid "Not specified"
+msgstr ""
+
+#: Form/Element/CitizenshipSelect.php:29
+msgid "Citizen of Ukraine"
+msgstr "Гражданин Украины"
+
+#: Form/Element/CitizenshipSelect.php:30
+msgid "Citizen of another country"
+msgstr "Гражданин другой страны"
+
+#: Form/Element/CitizenshipSelect.php:31
+msgid "Statelessness"
+msgstr "Безгражданство"
+
+#: Form/Element/CitizenshipSelect.php:32
+msgid "Multiple citizenship"
+msgstr "Многократное гражданство"
+
+#: Form/Element/ContactType.php:33
+msgid "Personal email"
+msgstr "Личный e-mail"
+
+#: Form/Element/ContactType.php:34
+msgid "Work email"
+msgstr "Рабочий e-mail"
+
+#: Form/Element/ContactType.php:35
+msgid "Reception"
+msgstr "Приёмная"
+
+#: Form/Element/ContactType.php:36
+msgid "Suite"
+msgstr "Сайт"
+
+#: Form/Element/ContactType.php:37
+msgid "Receipt"
+msgstr "График приёма граждан"
+
+#: Form/Element/ContactType.php:38
+msgid "Address"
+msgstr "Почтовый адрес "
+
+#: Form/Element/EducationSelect.php:29
+msgid "Basic general secondary education"
+msgstr ""
+
+#: Form/Element/EducationSelect.php:30
+msgid "Full general secondary education"
+msgstr ""
+
+#: Form/Element/EducationSelect.php:31
+msgid "Vocational education"
+msgstr "Профессионально-техническое образование"
+
+#: Form/Element/EducationSelect.php:32
+msgid "Incomplete higher education"
+msgstr "Неоконченное высшее образование"
+
+#: Form/Element/EducationSelect.php:33
+msgid "Higher Education"
+msgstr "Высшее образование"
+
+#: Form/Element/EducationSelect.php:34
+msgid "Two and more higher education"
+msgstr "Два и более высших образования"
+
+#: Form/Element/EducationSelect.php:35
+msgid "Academic degree"
+msgstr "Ученая степень"
+
+#: Form/Element/NetworkTypeSelect.php:36
+msgid "Facebook"
+msgstr "Facebook"
+
+#: Form/Element/NetworkTypeSelect.php:37
+msgid "Twitter"
+msgstr "Twitter"
+
+#: Form/Element/NetworkTypeSelect.php:38
+msgid "Youtube"
+msgstr "Youtube"
+
+#: Form/Element/NetworkTypeSelect.php:39
+msgid "Google"
+msgstr "Google"
+
+#: Form/Element/NetworkTypeSelect.php:40
+msgid "Instagram"
+msgstr "Instagram"
+
+#: Form/Element/NetworkTypeSelect.php:41
+msgid "Telegram"
+msgstr "Telegram"
+
+#: Form/Element/NetworkTypeSelect.php:42
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: Form/Element/NetworkTypeSelect.php:43
+msgid "Flickr"
+msgstr "Flickr"
+
+#: Form/Element/NetworkTypeSelect.php:44
+msgid "MySpace"
+msgstr "MySpace"
+
+#: Form/Element/NetworkTypeSelect.php:45
+msgid "VK"
+msgstr "VK"
+
+#: Form/Element/PersonRelationTypeSelect.php:27
+#: Form/Element/ReferenceTypeSelect.php:25
+msgid "Person"
+msgstr "Персоны"
+
+#: Form/Element/PersonRelationTypeSelect.php:28
+#: Form/Element/ReferenceTypeSelect.php:26
+msgid "Institution"
+msgstr "Учреждения"
+
+#: Form/Element/PersonRelationTypeSelect.php:29
+#: Form/Element/ReferenceTypeSelect.php:27
+msgid "Consignment"
+msgstr "Партии"
+
+#: Form/Element/PersonRelationTypeSelect.php:30
+msgid "Documents"
+msgstr "Документы"
+
+#: Form/Element/PersonStatusSelect.php:26 Form/Element/StatusTypeSelect.php:26
+msgid "Draft"
+msgstr "Черновик"
+
+#: Form/Element/PersonStatusSelect.php:27 Form/Element/StatusTypeSelect.php:27
+msgid "Preview"
+msgstr "Сокращенный профиль"
+
+#: Form/Element/PersonStatusSelect.php:28 Form/Element/StatusTypeSelect.php:28
+msgid "Ready"
+msgstr "Полный профиль"
+
+#: Form/Element/PowerTypeSelect.php:34
+msgid "President"
+msgstr "Президент Украины"
+
+#: Form/Element/PowerTypeSelect.php:35
+msgid "Legislative"
+msgstr "Законодательная власть и органы местного самоуправления"
+
+#: Form/Element/PowerTypeSelect.php:36
+msgid "Executive"
+msgstr "Исполнительная власть"
+
+#: Form/Element/PowerTypeSelect.php:37
+msgid "Judicial"
+msgstr "Судебная власть"
+
+#: Form/Element/PowerTypeSelect.php:38
+msgid "Procuracy"
+msgstr "Органы прокуратуры"
+
+#: Form/Element/PowerTypeSelect.php:39
+msgid "Communal"
+msgstr "Государственные и коммунальные предприятия"
+
+#: Form/Element/PowerTypeSelect.php:40
+msgid "Others"
+msgstr "Другое"
+
+#: Form/Element/ReferenceTypeSelect.php:28
+msgid "Document"
+msgstr "Документ"
+
+#: Form/Element/ScaleSelect.php:33
+msgid "Ukraine"
+msgstr "Всеукраинский"
+
+#: Form/Element/ScaleSelect.php:34
+msgid "Region"
+msgstr "Региональный"
+
+#: Form/Element/ScaleSelect.php:35
+msgid "District"
+msgstr "Областной"
+
+#: Form/Element/ScaleSelect.php:36
+msgid "City"
+msgstr "Местный"
+
+#: Form/Element/ScaleSelect.php:37
+msgid "Area"
+msgstr "Районный в области"
+
+#: Form/Element/SocialStatusSelect.php:28
+msgid "Pupil"
+msgstr "Ученица"
+
+#: Form/Element/SocialStatusSelect.php:29
+msgid "Student"
+msgstr "Ученик"
+
+#: Form/Element/SocialStatusSelect.php:30
+msgid "Pensioner"
+msgstr "Пенсионер"
+
+#: Form/Element/SocialStatusSelect.php:31
+msgid "Top-management"
+msgstr "Высшее руководство"
+
+#: Form/Element/SocialStatusSelect.php:32
+msgid "Self-employment"
+msgstr "Работа на себя"
+
+#: Form/Element/SocialStatusSelect.php:33
+msgid "Legal person"
+msgstr "Законопослушный гражданин"
+
+#: Form/Element/SocialStatusSelect.php:34
+msgid "Civil service"
+msgstr "Гражданская служба"
+
+#: Form/Element/SocialStatusSelect.php:35
+msgid "Teacher, lecturer, scientific research worker"
+msgstr "Преподаватель, преподаватель, научный сотрудник"
+
+#: Form/Element/SocialStatusSelect.php:36
+msgid "Wage labor"
+msgstr "Наемный труд"
+
+#: Form/Element/SocialStatusSelect.php:37
+msgid "Unemployment"
+msgstr "безработица"
+
+#: Form/Element/SocialStatusSelect.php:38 Form/Element/WorkerSelect.php:48
+msgid "Other"
+msgstr "Другой"
+
+#: Form/Element/WorkerSelect.php:29
+msgid "Education &amp; Science"
+msgstr "Образование & Наука"
+
+#: Form/Element/WorkerSelect.php:30
+msgid "Trade"
+msgstr "Сделка"
+
+#: Form/Element/WorkerSelect.php:31
+msgid "Healthcare"
+msgstr "Здравоохранение"
+
+#: Form/Element/WorkerSelect.php:32
+msgid "Industry"
+msgstr "Промышленность"
+
+#: Form/Element/WorkerSelect.php:33
+msgid "Service sector"
+msgstr "Сектор обслуживания"
+
+#: Form/Element/WorkerSelect.php:34
+msgid "Social sphere, volunteering, public organizations"
+msgstr "Социальная сфера, волонтерство, общественные организации"
+
+#: Form/Element/WorkerSelect.php:35
+msgid "Law Enforcement / Army / Security"
+msgstr "Правоохранительные органы / Армия / Безопасность"
+
+#: Form/Element/WorkerSelect.php:36
+msgid "Agriculture"
+msgstr "сельское хозяйство"
+
+#: Form/Element/WorkerSelect.php:37
+msgid "Jurisprudence / law"
+msgstr "Юриспруденция / право"
+
+#: Form/Element/WorkerSelect.php:38
+msgid "Finances, bank, insurance"
+msgstr "Финансы, банк, страхование"
+
+#: Form/Element/WorkerSelect.php:39
+msgid "Transport"
+msgstr "Транспорт"
+
+#: Form/Element/WorkerSelect.php:40
+msgid "Telecommunications"
+msgstr "Cвязь"
+
+#: Form/Element/WorkerSelect.php:41
+msgid "Construction, architecture"
+msgstr "Строительство, архитектура"
+
+#: Form/Element/WorkerSelect.php:42
+msgid "Sport"
+msgstr "Спорт"
+
+#: Form/Element/WorkerSelect.php:43
+msgid "Journalism"
+msgstr "Журналистика"
+
+#: Form/Element/WorkerSelect.php:44
+msgid "IT"
+msgstr ""
+
+#: Form/Element/WorkerSelect.php:45
+msgid "Housing and communal services"
+msgstr "Государственные и коммунальные предприятия"
+
+#: Form/Element/WorkerSelect.php:46
+msgid "Tourism"
+msgstr "туризм"
+
+#: Form/Element/WorkerSelect.php:47
+msgid "Culture, showbusiness, music"
+msgstr "Культура, шоу-бизнес, музыка"
+
+#~ msgid "LiveJournal"
+#~ msgstr "LiveJournal"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Vine"
+#~ msgstr "Vine"
+
+#~ msgid "Tumblr"
+#~ msgstr "Tumblr"
+
+#~ msgid "Storify"
+#~ msgstr "Storify"
+
+#~ msgid "Blogger"
+#~ msgstr "Blogger"
+
+#~ msgid "persons"
+#~ msgstr "персоны"
+
+#~ msgid "Drank dyalnil"
+#~ msgstr "Прекращена деятельность"
+
+#~ msgid "LEGISLATIVE"
+#~ msgstr "Законодательная власть и местное самоуправление"
+
+#~ msgid "EXECUTIVE"
+#~ msgstr "Исполнительная власть"
+
+#~ msgid "JUDICIAL"
+#~ msgstr "Судебная власть и конституционные органы"
+
+#~ msgid "COMMUNAL"
+#~ msgstr "Коммунальные предприятия"
+
+#~ msgid "UKRAINE"
+#~ msgstr "Всеукраинского значения"
+
+#~ msgid "REGION"
+#~ msgstr "Областного значения"
+
+#~ msgid "DISTRICT"
+#~ msgstr "Районного в области значения"
+
+#~ msgid "CITY"
+#~ msgstr "Городского значения"
+
+#~ msgid "AREA"
+#~ msgstr "Районного в городе значения"
+
+#~ msgid "MONITORING"
+#~ msgstr "Контролирующие органы"
+
+#~ msgid "All-Ukrainian significance"
+#~ msgstr "Всеукраинского значения"
+
+#~ msgid "Regional Value"
+#~ msgstr "Областного значения"
+
+#~ msgid "Rayon in the field value"
+#~ msgstr "Районного в области значения"
+
+#~ msgid "City value"
+#~ msgstr "Городского значения"
+
+#~ msgid "Rayon values in the city"
+#~ msgstr "Районного в городе значения"
