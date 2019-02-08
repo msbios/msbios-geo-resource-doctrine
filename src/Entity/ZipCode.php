@@ -11,10 +11,11 @@ use MSBios\Resource\Doctrine\TimestampableAwareInterface;
 use MSBios\Resource\Doctrine\TimestampableAwareTrait;
 
 /**
- * @package OpenPower\Resource\Entity
+ * Class ZipCode
+ * @package MSBios\Geo\Resource\Doctrine\Entity
  *
  * @ORM\Entity
- * @ORM\Table(name="geo_t_zipcode",
+ * @ORM\Table(name="geo_t_zip_codes",
  *     indexes={
  *          @ORM\Index(name="rowstatus", columns={"rowstatus"})
  *     },
@@ -24,7 +25,7 @@ use MSBios\Resource\Doctrine\TimestampableAwareTrait;
  *     }
  * )
  */
-class Zipcode extends Entity implements
+class ZipCode extends Entity implements
     TimestampableAwareInterface,
     RowStatusableAwareInterface
 {

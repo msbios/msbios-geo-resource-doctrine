@@ -6,7 +6,8 @@
 namespace MSBios\Geo\Resource\Doctrine;
 
 use Doctrine\ORM\Mapping as ORM;
-use MSBios\Resource\Doctrine\Entity as DefaultEntity;
+use MSBios\Doctrine\Entity as DefaultEntity;
+use MSBios\Doctrine\IdentifierAwareTrait;
 
 /**
  * Class Entity
@@ -16,5 +17,5 @@ use MSBios\Resource\Doctrine\Entity as DefaultEntity;
  */
 abstract class Entity extends DefaultEntity
 {
-    // ...
+    use IdentifierAwareTrait;
 }

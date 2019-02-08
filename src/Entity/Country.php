@@ -15,7 +15,7 @@ use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
  * @package MSBios\Geo\Resource\Doctrine\Entity
  *
  * @ORM\Entity
- * @ORM\Table(name="geo_t_country",
+ * @ORM\Table(name="geo_t_countries",
  *     indexes={
  *          @ORM\Index(name="rowstatus", columns={"rowstatus"})}
  *     )
@@ -44,6 +44,17 @@ class Country extends Entity implements RowStatusableAwareInterface
      * @ORM\Column(name="phonecode", type="integer", length=5, nullable=false)
      */
     private $phonecode;
+
+    /**
+     * @var ArrayCollection
+     *
+     * @ORM\OneToMany(
+     *   targetEntity="CountryTranslation",
+     *   mappedBy="object",
+     *   cascade={"persist", "remove"}
+     * )
+     */
+    private $translations;
 
     /**
      * Country constructor.

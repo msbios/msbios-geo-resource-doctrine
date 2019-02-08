@@ -99,6 +99,15 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/msbios/paginator-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/msbios/i18n" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/msbios/form-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/msbios/session" />
+      <path value="$PROJECT_DIR$/vendor/msbios/i18n-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/msbios/resource-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

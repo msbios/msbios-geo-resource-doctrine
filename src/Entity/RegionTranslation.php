@@ -14,7 +14,7 @@ use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
  * @package MSBios\Geo\Resource\Doctrine\Entity
  *
  * @ORM\Entity
- * @ORM\Table(name="ppw_t_region_translations",
+ * @ORM\Table(name="geo_t_region_translations",
  *     uniqueConstraints={@ORM\UniqueConstraint(name="lookup_unique_idx", columns={
  *         "locale", "object_id", "field"
  *     })}

@@ -48,7 +48,10 @@ class Region extends Entity implements RowStatusableAwareInterface
      */
     private $translations;
 
-    public function init()
+    /**
+     * Region constructor.
+     */
+    public function __construct()
     {
         $this->translations = new ArrayCollection;
     }

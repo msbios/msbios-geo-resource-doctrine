@@ -1,13 +1,14 @@
 <?php
 
-namespace OpenPower\Resource\Entity;
+namespace MSBios\Geo\Resource\Doctrine\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
 
 /**
  * Class CountryTranslation
- * @package OpenPower\Resource\Entity
+ * @package MSBios\Geo\Resource\Doctrine\Entity
+ *
  * @ORM\Entity
  * @ORM\Table(name="geo_t_country_translations",
  *     uniqueConstraints={@ORM\UniqueConstraint(name="lookup_unique_idx", columns={
