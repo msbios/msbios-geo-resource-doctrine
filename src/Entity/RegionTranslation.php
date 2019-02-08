@@ -23,7 +23,7 @@ use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
 class RegionTranslation extends ObjectTranslation
 {
     /**
-     * @ORM\ManyToOne(targetEntity="Region", inversedBy="translations")
+     * @ORM\ManyToOne(targetEntity="MSBios\Geo\Resource\Doctrine\Entity\RegionInterface", inversedBy="translations")
      * @ORM\JoinColumn(name="object_id", referencedColumnName="id", onDelete="CASCADE")
      */
     protected $object;

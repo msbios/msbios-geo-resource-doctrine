@@ -33,8 +33,12 @@ return [
         'entity_resolver' => [
             'orm_default' => [
                 'resolvers' => [
-                    // \MSBios\Guard\Resource\Doctrine\UserInterface::class =>
-                    //     Entity\User::class,
+                     Entity\CountryInterface::class =>
+                         Entity\Country::class,
+                     Entity\RegionInterface::class =>
+                         Entity\Region::class,
+                     Entity\ZipCodeInterface::class =>
+                         Entity\ZipCode::class,
                 ],
             ],
         ],

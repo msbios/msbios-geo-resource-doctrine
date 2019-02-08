@@ -19,7 +19,7 @@ use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
 class CountryTranslation extends ObjectTranslation
 {
     /**
-     * @ORM\ManyToOne(targetEntity="Country", inversedBy="translations")
+     * @ORM\ManyToOne(targetEntity="MSBios\Geo\Resource\Doctrine\Entity\CountryInterface", inversedBy="translations")
      * @ORM\JoinColumn(name="object_id", referencedColumnName="id", onDelete="CASCADE")
      */
     protected $object;

@@ -29,10 +29,9 @@
   "require-dev": {
     "msbios/test": "^1.0",
     "msbios/debug": "^1.0",
-    "msbios/doctrine": "^1.0",
+    "msbios/resource-doctrine": "^1.0",
     "msbios/i18n": "^1.0",
-    "msbios/i18n-doctrine": "^1.0",
-    "msbios/resource-doctrine": "^1.0"
+    "msbios/i18n-doctrine": "^1.0"
   },
   "scripts": {
     "cs-check": "phpcs",

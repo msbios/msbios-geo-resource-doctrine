@@ -26,6 +26,7 @@ use MSBios\Resource\Doctrine\TimestampableAwareTrait;
  * )
  */
 class ZipCode extends Entity implements
+    ZipCodeInterface,
     TimestampableAwareInterface,
     RowStatusableAwareInterface
 {

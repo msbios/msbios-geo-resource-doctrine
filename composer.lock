@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4eefae542031913f7e7191e1b330b6d",
+    "content-hash": "cf30c1b9ba1cd63ea38e5272c378951c",
     "packages": [
         {
             "name": "msbios/msbios",

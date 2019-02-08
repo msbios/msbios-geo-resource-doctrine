@@ -21,7 +21,9 @@ use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
  *     )
  * @Gedmo\TranslationEntity(class="CountryTranslation")
  */
-class Country extends Entity implements RowStatusableAwareInterface
+class Country extends Entity implements
+    CountryInterface,
+    RowStatusableAwareInterface
 {
     use RowStatusableAwareTrait;
     use EntityTranslationTrait;
