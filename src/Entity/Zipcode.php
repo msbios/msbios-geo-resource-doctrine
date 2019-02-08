@@ -1,20 +1,20 @@
 <?php
 
-namespace OpenPower\Resource\Entity;
+namespace MSBios\Geo\Resource\Doctrine\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
+use MSBios\Geo\Resource\Doctrine\Entity;
 use MSBios\Resource\Doctrine\RowStatusableAwareInterface;
 use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
 use MSBios\Resource\Doctrine\TimestampableAwareInterface;
 use MSBios\Resource\Doctrine\TimestampableAwareTrait;
-use OpenPower\Resource\Entity;
 
 /**
  * @package OpenPower\Resource\Entity
  *
- * @ORM\Entity(repositoryClass="OpenPower\Resource\Repository\ZipcodeRepository")
- * @ORM\Table(name="ppw_t_zipcode",
+ * @ORM\Entity
+ * @ORM\Table(name="geo_t_zipcode",
  *     indexes={
  *          @ORM\Index(name="rowstatus", columns={"rowstatus"})
  *     },

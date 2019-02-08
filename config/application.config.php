@@ -1,18 +1,61 @@
 <?php
-/**
- * If you need an environment-specific system or application configuration,
- * there is an example in the documentation
- * @see https://docs.zendframework.com/tutorials/advanced-config/#environment-specific-system-configuration
- * @see https://docs.zendframework.com/tutorials/advanced-config/#environment-specific-application-configuration
- */
+
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
-        'Zend\Router',
-        'MSBios\Cache',
+        'MSBios\Portal\Doctrine',
+        'MSBios\Portal',
+        'MSBios\Application',
+        'MSBios\Theme',
+        'MSBios\Widget',
         'MSBios\Assetic',
-    ],
+        'MSBios\Navigation',
+        'Zend\Navigation',
+        'Zend\Log',
+        'MSBios\CPanel\Doctrine',
+        // 'MSBios\CPanel',
+        'MSBios\Hydrator',
+        'MSBios\View',
+        'Zend\Mvc\Plugin\FilePrg',
+        'Zend\Mvc\Plugin\Identity',
+        'Zend\Mvc\Plugin\Prg',
+        'MSBios\Guard\Doctrine',
+        'Zend\Mvc\Plugin\FlashMessenger',
+        // 'MSBios\Guard\CPanel',
+        // 'MSBios\Guard\CPanel\Doctrine',
+        'MSBios\Authentication\Doctrine',
+        'MSBios\Guard\Resource\Doctrine',
+        'MSBios\Paginator\Doctrine',
+        'MSBios\Doctrine',
+        'MSBios\Form\Doctrine',
+        'MSBios\Permissions\Acl',
+        'MSBios\Cache',
+        'Zend\Cache',
+        'Zend\Serializer',
+        'MSBios\Authentication',
+        'MSBios\Guard\Resource',
+        'MSBios\Guard',
+        'MSBios\Validator',
+        'Zend\Paginator',
+        'MSBios\Db',
+        'Zend\Db',
+        'MSBios\Form',
+        'Zend\Form',
+        'Zend\InputFilter',
+        'Zend\Filter',
+        'Zend\Hydrator',
+        'Zend\Router',
+        'Zend\I18n',
 
+        'DoctrineModule',
+        'DoctrineORMModule',
+
+        'MSBios\Session',
+        'MSBios\I18n',
+        'MSBios\I18n\Doctrine',
+        'MSBios\Resource\Doctrine',
+        'MSBios\Geo\Resource\Doctrine',
+    ],
     'module_listener_options' => [
         'module_paths' => [
             './module',
@@ -26,5 +69,5 @@ return [
         'module_map_cache_enabled' => false,
         // 'module_map_cache_key' => 'application.module.cache',
         'cache_dir' => 'data/cache/',
-    ],
+    ]
 ];

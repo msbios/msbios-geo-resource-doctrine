@@ -4,14 +4,15 @@
  * @author Judzhin Miles <judzhin[at]gns-it.com>
  */
 
-namespace OpenPower\Resource\Entity;
+namespace MSBios\Geo\Resource\Doctrine\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
 
 /**
  * Class RegionTranslation
- * @package OpenPower\Resource\Entity
+ * @package MSBios\Geo\Resource\Doctrine\Entity
+ *
  * @ORM\Entity
  * @ORM\Table(name="ppw_t_region_translations",
  *     uniqueConstraints={@ORM\UniqueConstraint(name="lookup_unique_idx", columns={

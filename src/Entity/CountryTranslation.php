@@ -9,7 +9,7 @@ use MSBios\I18n\Doctrine\Entity\ObjectTranslation;
  * Class CountryTranslation
  * @package OpenPower\Resource\Entity
  * @ORM\Entity
- * @ORM\Table(name="ppw_t_country_translations",
+ * @ORM\Table(name="geo_t_country_translations",
  *     uniqueConstraints={@ORM\UniqueConstraint(name="lookup_unique_idx", columns={
  *         "locale", "object_id", "field"
  *     })}

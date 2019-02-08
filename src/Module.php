@@ -5,22 +5,32 @@
  */
 namespace MSBios\Geo\Resource\Doctrine;
 
-use MSBios\ModuleInterface;
-
 /**
  * Class Module
  * @package MSBios\Geo\Resource\Doctrine
  */
-class Module implements ModuleInterface
+class Module extends \MSBios\Module
 {
     /** @const VERSION */
     const VERSION = '0.0.1';
 
     /**
-     * @return mixed
+     * @inheritdoc
+     *
+     * @return string
      */
-    public function getConfig()
+    protected function getDir()
     {
-        return include __DIR__ . '/../config/module.config.php';
+        return __DIR__;
+    }
+
+    /**
+     * @inheritdoc
+     *
+     * @return string
+     */
+    protected function getNamespace()
+    {
+        return __NAMESPACE__;
     }
 }

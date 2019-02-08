@@ -5,10 +5,10 @@ namespace MSBios\Geo\Resource\Doctrine\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
+use MSBios\Geo\Resource\Doctrine\Entity;
 use MSBios\I18n\Doctrine\Entity\EntityTranslationTrait;
 use MSBios\Resource\Doctrine\RowStatusableAwareInterface;
 use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
-use OpenPower\Resource\Entity;
 
 /**
  * Class Country

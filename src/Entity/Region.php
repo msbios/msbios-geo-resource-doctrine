@@ -1,20 +1,21 @@
 <?php
 
-namespace OpenPower\Resource\Entity;
+namespace MSBios\Geo\Resource\Doctrine\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
+use MSBios\Geo\Resource\Doctrine\Entity;
 use MSBios\I18n\Doctrine\Entity\EntityTranslationTrait;
 use MSBios\Resource\Doctrine\RowStatusableAwareInterface;
 use MSBios\Resource\Doctrine\RowStatusableAwareTrait;
-use OpenPower\Resource\Entity;
 
 /**
- * @package OpenPower\Resource\Entity
+ * Class Region
+ * @package MSBios\Geo\Resource\Doctrine\Entity
  *
  * @ORM\Entity
- * @ORM\Table(name="ppw_t_regions",
+ * @ORM\Table(name="geo_t_regions",
  *     indexes={
  *          @ORM\Index(name="rowstatus", columns={"rowstatus"})}
  *     )

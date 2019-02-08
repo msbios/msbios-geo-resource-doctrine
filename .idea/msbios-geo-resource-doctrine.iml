@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="MSBios\Geo\Resource\Doctrine\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="MSBiosTest\Geo\Resource\Doctrine\" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/behat/transliterator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/digitalnature/php-ref" />
@@ -22,19 +21,14 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/gedmo/doctrine-extensions" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/matycz/lemo-tracy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/debug" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/doctrine" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/form" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/form-doctrine" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/i18n-doctrine" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/json" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/msbios" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/paginator-doctrine" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/resource-doctrine" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/stdlib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/msbios/test" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
